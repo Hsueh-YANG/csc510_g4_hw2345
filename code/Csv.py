@@ -22,4 +22,4 @@ class Csv:
             for row in reader_obj:
                 self.data.append(row)
                 self.count += 1
-            print(self.data)
+        return self.data           
